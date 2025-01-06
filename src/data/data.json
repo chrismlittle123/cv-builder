@@ -15,17 +15,34 @@
   },
   "education": [
     {
-      "degreeName": "Mathematics",
-      "type": "BACHELOR_OF_SCIENCE",
-      "institution": "UNIVERSITY_OF_WARWICK", 
-      "grade": "FIRST_CLASS_HONOURS",
+      "degree": {
+        "name": {
+          "identifier": "MATHEMATICS",
+          "value": "Mathematics"
+        },
+        "type": {
+          "identifier": "BSC",
+          "value": "BSc"
+        }
+      },
+      "institution": {
+        "identifier": "WARWICK",
+        "value": "University of Warwick"
+      },
+      "grade": {
+        "identifier": "FIRST",
+        "value": "First Class Honours"
+      },
       "startDate": "2014-09-01",
       "endDate": "2018-06-01"
     }
   ],
   "skills": [
     {
-      "category": "PROGRAMMING_LANGUAGES",
+      "category": {
+        "identifier": "PROGRAMMING",
+        "value": "Programming Languages"
+      },
       "items": [
         {
           "name": "Python",
@@ -38,7 +55,10 @@
       ]
     },
     {
-      "category": "DATA_TOOLS",
+      "category": {
+        "identifier": "DATA_TOOLS",
+        "value": "Data Tools"
+      },
       "items": [
         {
           "name": "Apache Airflow",
@@ -55,7 +75,10 @@
       ]
     },
     {
-      "category": "CLOUD_TECHNOLOGIES",
+      "category": {
+        "identifier": "CLOUD",
+        "value": "Cloud Technologies"
+      },
       "items": [
         {
           "name": "AWS Lambda",
@@ -72,7 +95,10 @@
       ]
     },
     {
-      "category": "CONTAINERIZATION",
+      "category": {
+        "identifier": "CONTAINERS",
+        "value": "Containerization"
+      },
       "items": [
         {
           "name": "Docker",
@@ -85,7 +111,10 @@
       ]
     },
     {
-      "category": "DATABASE_SYSTEMS",
+      "category": {
+        "identifier": "DATABASES",
+        "value": "Database Systems"
+      },
       "items": [
         {
           "name": "Snowflake",
@@ -102,7 +131,10 @@
       ]
     },
     {
-      "category": "VISUALIZATION",
+      "category": {
+        "identifier": "VISUALIZATION",
+        "value": "Data Visualization"
+      },
       "items": [
         {
           "name": "Streamlit",
@@ -123,7 +155,10 @@
       ]
     },
     {
-      "category": "DEVOPS",
+      "category": {
+        "identifier": "DEVOPS",
+        "value": "DevOps"
+      },
       "items": [
         {
           "name": "GitHub Actions",
