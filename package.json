@@ -1,0 +1,24 @@
+{
+  "name": "cv-builder",
+  "version": "1.0.0",
+  "description": "Build a CV using JSON and template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismlittle123/cv-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrismlittle123/cv-builder/issues"
+  },
+  "homepage": "https://github.com/chrismlittle123/cv-builder#readme",
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
