@@ -27,8 +27,8 @@
           "identifier": "FIRST",
           "value": "First Class Honours"
         },
-        "startDate": "2014-09-01",
-        "endDate": "2018-06-01"
+        "startDate": {"year": 2014, "month": 9, "day": 1},
+        "endDate": {"year": 2018, "month": 6, "day": 1}
       }
     ],
     "skills": [
@@ -45,6 +45,10 @@
           {
             "name": "SQL",
             "proficiency": 4
+          },
+          {
+            "name": "Typescript",
+            "proficiency": 4
           }
         ]
       },
@@ -55,12 +59,8 @@
         },
         "items": [
           {
-            "name": "Apache Airflow",
-            "proficiency": 5
-          },
-          {
             "name": "DBT",
-            "proficiency": 5
+            "proficiency": 4
           },
           {
             "name": "Apache Spark",
@@ -79,13 +79,11 @@
             "proficiency": 5
           },
           {
-            "name": "AWS DynamoDB",
-            "proficiency": 4
-          },
-          {
             "name": "Terraform",
-            "proficiency": 4
-          }
+            "proficiency": 5
+          },
+          { "name": "AWS Glue", "proficiency": 4 },
+          { "name": "AWS Redshift", "proficiency": 4 }
         ]
       },
       {
@@ -97,10 +95,6 @@
           {
             "name": "Docker",
             "proficiency": 4
-          },
-          {
-            "name": "Kubernetes",
-            "proficiency": 3
           }
         ]
       },
@@ -111,16 +105,16 @@
         },
         "items": [
           {
-            "name": "Snowflake",
-            "proficiency": 5
-          },
-          {
             "name": "PostgreSQL",
             "proficiency": 5
           },
           {
             "name": "MySQL",
             "proficiency": 5
+          },
+          {
+            "name": "Snowflake",
+            "proficiency": 4
           }
         ]
       },
@@ -163,58 +157,54 @@
     ],
     "experience": [
       {
-        "startDate": "2024-02-01",
-        "endDate": null,
+        "startDate": {"year": 2024, "month": 1, "day": 1},
+        "endDate": {"year": 2025, "month": 1, "day": 1},
         "company": "SpeedSheet",
         "locationCity": "Oxford",
         "locationCountry": "UK",
-        "title": "Co-Founder and Chief Technology Officer",
-        "description": "Who we are: At SpeedSheet, our aim is to make automating Excel processes fast and simple. We help businesses upgrade their Excel workflows and work on a project by project basis. Our secret sauce is a software tool that automatically turns Excel spreadsheets into a super fast data pipeline and/or web application.",
-        "achievements": []
+        "title": "Data Consultant",
+        "description": "Started my own consultancy business, providing software development and data consulting services to clients.",
+        "achievements": [{
+          "title": "Compliance Tool for Mortgage Broker",
+          "description": "Built a tool which lets mortgage brokers extract data from PDFs such as bank statements and payslips, helping them to automate their compliance process."
+        },
+        {
+          "title": "EBay Store Management System",
+          "description": "Built a custom ERP system for an e-commerce business, allowing them to manage their inventory, orders, and sales and connect to eBay"
+        }
+      ]
       },
       {
-        "startDate": "2023-09-01",
-        "endDate": "2024-02-01",
+        "startDate": {"year": 2023, "month": 9, "day": 1},
+        "endDate": {"year": 2024, "month": 2, "day": 1},
         "company": "ICS Consulting",
         "locationCity": "Warwick",
         "locationCountry": "UK",
-        "title": "Senior Data Consultant - Engineering Forecasting Models",
+        "title": "Senior Data Consultant",
         "description": null,
         "achievements": [
           {
             "title": "Excel Migration",
             "description": "Migrated a large and complex Excel process. The existing process generated over 100 infrastructure asset forecasting reports for Ofgem using Excel and VBA. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
-          },
-          {
-            "title": "Excel Migration",
-            "description": "Migrated a large and complex Excel process. The existing process generated over 100 infrastructure asset forecasting reports for Ofgem using Excel and VBA. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
-          },
-          {
-            "title": "Data Cleaning Automation",
-            "description": "Developed an internal software tool that extracts and cleans highly unstructured data from Excel spreadsheets using AI. Implemented the tool to save approximately 20 FTE hours per month for the business."
           }
         ]
       },
       {
-        "startDate": "2022-09-01",
-        "endDate": "2023-09-01",
+        "startDate": {"year": 2022, "month": 9, "day": 1},
+        "endDate": {"year": 2023, "month": 9, "day": 1},
         "company": "Sonnedix",
         "locationCity": "London",
         "locationCountry": "UK",
-        "title": "Data Engineer - AI Implementation Team",
+        "title": "Data Engineer",
         "description": null,
         "achievements": [
           {
             "title": "Financial Analysis Web Application",
-            "description": "Developed a large-scale application using Typescript and React. This application integrated weather data, energy prices, and site-specific data to calculate expected solar site revenues. Backend was constructed using NestJS, using the Jest testing framework and containerised using Docker, with deployment managed through Kubernetes."
+            "description": "Developed a large-scale application using Typescript and React. This application integrated weather data, energy prices, and site-specific data to calculate expected solar site revenues."
           },
           {
             "title": "Data Pipelining",
-            "description": "Utilised Apache Spark within Palantir Foundry to build and maintain data pipelines, ensuring scalability and performance. Developed both cross-sectional and time series datasets from weather and operational data providers."
-          },
-          {
-            "title": "Real-time Dashboards",
-            "description": "Implemented Apache Kafka for data streaming, integrating with Foundry to build a real-time Operational Statistics dashboard."
+            "description": "Utilised Apache Spark to build and maintain data pipelines for collecting and processing time series power data."
           },
           {
             "title": "Machine Learning",
@@ -223,21 +213,17 @@
         ]
       },
       {
-        "startDate": "2019-06-01",
-        "endDate": "2022-09-01",
+        "startDate": {"year": 2019, "month": 6, "day": 1},
+        "endDate": {"year": 2022, "month": 9, "day": 1},
         "company": "Cazoo",
         "locationCity": "London",
         "locationCountry": "UK",
-        "title": "Data Engineer - Purchasing Team",
+        "title": "Data Engineer",
         "description": null,
         "achievements": [
           {
-            "title": "Data Management",
-            "description": "Managed data primarily from Autotrader and Cazana. Automated the calculation of car prices, overcoming challenges with configuration files. Developed a Streamlit app for configuration management, allowing users to make updates without breaking the application."
-          },
-          {
             "title": "Backend Development",
-            "description": "Transitioned from Google Sheets to a more efficient backend system for the Purchasing process, achieving significant speed improvements, using AWS Lambda, DynamoDB, Docker, and AppSync. Implemented a MySQL database connected to a Google Sheet via Google AppScript, serving as a real-time lookup table for the Purchasing team."
+            "description": "Transitioned from Google Sheets to a more efficient backend system for Cazoo's car purchasing process, achieving significant speed improvements, using AWS Lambda, DynamoDB, Docker, and AppSync."
           },
           {
             "title": "Data Modeling",
