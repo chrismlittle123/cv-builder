@@ -7,14 +7,18 @@ interface CVData {
   // Add more fields as needed
 }
 
+const cssStyles = `
+/* Add styles here */
+`;
+
 export function generateHTML(data: CVData): string {
   return `<!DOCTYPE html>
-<html xmlns=\"http://www.w3.org/1999/xhtml\">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset=\"utf-8\"/>
+<meta charset="utf-8"/>
 <title>${data.name} - ${data.title}</title>
-<style type=\"text/css\">
-/* Add styles here */
+<style type="text/css">
+${cssStyles}
 </style>
 </head>
 <body>
