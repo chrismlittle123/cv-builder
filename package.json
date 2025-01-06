@@ -6,6 +6,7 @@
     "autoprefixer": "^10.4.20",
     "cra-template-typescript": "1.2.0",
     "postcss": "^8.4.49",
+    "puppeteer": "^23.11.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
