@@ -19,6 +19,7 @@
   "homepage": "https://github.com/chrismlittle123/cv-builder#readme",
   "dependencies": {
     "@types/node": "^22.10.5",
+    "pdf-parse": "^1.1.1",
     "typescript": "^5.7.2"
   }
 }
