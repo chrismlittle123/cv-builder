@@ -1,16 +1,10 @@
 {
     "profile": {
       "name": "Christopher Little",
-      "title": "Data Consultant",
+      "title": "Data Consultant", 
       "contact": {
-        "phone": "07957610802", 
-        "email": "chris@speedsheet.co.uk",
-        "social": [
-          {
-            "platform": "github",
-            "url": "https://github.com/chrismlittle123"
-          }
-        ]
+        "phone": "07957610802",
+        "email": "christopher.little.personal@gmail.com"
       }
     },
     "education": [
@@ -187,23 +181,45 @@
         "title": "Senior Data Consultant - Engineering Forecasting Models",
         "description": null,
         "achievements": [
-          "Excel Migration: Migrated a large and complex Excel process. The existing process generated over 100 infrastructure asset forecasting reports for Ofgem using Excel and VBA. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month.",
-          "Data Cleaning Automation: Developed an internal software tool that extracts and cleans highly unstructured data from Excel spreadsheets using AI. Implemented the tool to save approximately 20 FTE hours per month for the business."
+          {
+            "title": "Excel Migration",
+            "description": "Migrated a large and complex Excel process. The existing process generated over 100 infrastructure asset forecasting reports for Ofgem using Excel and VBA. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
+          },
+          {
+            "title": "Excel Migration",
+            "description": "Migrated a large and complex Excel process. The existing process generated over 100 infrastructure asset forecasting reports for Ofgem using Excel and VBA. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
+          },
+          {
+            "title": "Data Cleaning Automation",
+            "description": "Developed an internal software tool that extracts and cleans highly unstructured data from Excel spreadsheets using AI. Implemented the tool to save approximately 20 FTE hours per month for the business."
+          }
         ]
       },
       {
         "startDate": "2022-09-01",
-        "endDate": "2023-09-01", 
+        "endDate": "2023-09-01",
         "company": "Sonnedix",
         "locationCity": "London",
         "locationCountry": "UK",
         "title": "Data Engineer - AI Implementation Team",
         "description": null,
         "achievements": [
-          "Financial Analysis Web Application: Developed a large-scale application using Typescript and React. This application integrated weather data, energy prices, and site-specific data to calculate expected solar site revenues. Backend was constructed using NestJS, using the Jest testing framework and containerised using Docker, with deployment managed through Kubernetes.",
-          "Data Pipelining: Utilised Apache Spark within Palantir Foundry to build and maintain data pipelines, ensuring scalability and performance. Developed both cross-sectional and time series datasets from weather and operational data providers.",
-          "Real-time Dashboards: Implemented Apache Kafka for data streaming, integrating with Foundry to build a real-time Operational Statistics dashboard.",
-          "Machine Learning: Led a project that forecasted long-term irradiation trends across solar sites in Japan, achieving a 0.4% annual increase in revenue forecasts. Additionally, built a solar panel detection model using YoloV5 image recognition which was integrated into a Solar Site Prospecting tool."
+          {
+            "title": "Financial Analysis Web Application",
+            "description": "Developed a large-scale application using Typescript and React. This application integrated weather data, energy prices, and site-specific data to calculate expected solar site revenues. Backend was constructed using NestJS, using the Jest testing framework and containerised using Docker, with deployment managed through Kubernetes."
+          },
+          {
+            "title": "Data Pipelining",
+            "description": "Utilised Apache Spark within Palantir Foundry to build and maintain data pipelines, ensuring scalability and performance. Developed both cross-sectional and time series datasets from weather and operational data providers."
+          },
+          {
+            "title": "Real-time Dashboards",
+            "description": "Implemented Apache Kafka for data streaming, integrating with Foundry to build a real-time Operational Statistics dashboard."
+          },
+          {
+            "title": "Machine Learning",
+            "description": "Led a project that forecasted long-term irradiation trends across solar sites in Japan, achieving a 0.4% annual increase in revenue forecasts. Additionally, built a solar panel detection model using YoloV5 image recognition which was integrated into a Solar Site Prospecting tool."
+          }
         ]
       },
       {
@@ -215,11 +231,19 @@
         "title": "Data Engineer - Purchasing Team",
         "description": null,
         "achievements": [
-          "Data Management: Managed data primarily from Autotrader and Cazana. Automated the calculation of car prices, overcoming challenges with configuration files. Developed a Streamlit app for configuration management, allowing users to make updates without breaking the application.",
-          "Backend Development: Transitioned from Google Sheets to a more efficient backend system for the Purchasing process, achieving significant speed improvements, using AWS Lambda, DynamoDB, Docker, and AppSync. Implemented a MySQL database connected to a Google Sheet via Google AppScript, serving as a real-time lookup table for the Purchasing team.",
-          "Data Modeling: Modeled data into Redshift using SQL and DBT. Utilised Looker for data visualisation."
+          {
+            "title": "Data Management",
+            "description": "Managed data primarily from Autotrader and Cazana. Automated the calculation of car prices, overcoming challenges with configuration files. Developed a Streamlit app for configuration management, allowing users to make updates without breaking the application."
+          },
+          {
+            "title": "Backend Development",
+            "description": "Transitioned from Google Sheets to a more efficient backend system for the Purchasing process, achieving significant speed improvements, using AWS Lambda, DynamoDB, Docker, and AppSync. Implemented a MySQL database connected to a Google Sheet via Google AppScript, serving as a real-time lookup table for the Purchasing team."
+          },
+          {
+            "title": "Data Modeling",
+            "description": "Modeled data into Redshift using SQL and DBT. Utilised Looker for data visualisation."
+          }
         ]
       }
     ]
   }
-  
