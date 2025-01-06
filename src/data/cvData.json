@@ -89,7 +89,7 @@
       {
         "category": {
           "identifier": "CONTAINERS",
-          "value": "Containerization"
+          "value": "Containersation"
         },
         "items": [
           {
@@ -120,8 +120,8 @@
       },
       {
         "category": {
-          "identifier": "VISUALIZATION",
-          "value": "Data Visualization"
+          "identifier": "VISUALISATION",
+          "value": "Data Visualisation"
         },
         "items": [
           {
@@ -185,7 +185,7 @@
         "achievements": [
           {
             "title": "Excel Migration",
-            "description": "Migrated a large and complex Excel process. The existing process generated over 100 infrastructure asset forecasting reports for Ofgem using Excel and VBA. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
+            "description": "Migrated a large and complex Excel process that used VBA to generate reports. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
           }
         ]
       },
@@ -208,7 +208,7 @@
           },
           {
             "title": "Machine Learning",
-            "description": "Led a project that forecasted long-term irradiation trends across solar sites in Japan, achieving a 0.4% annual increase in revenue forecasts. Additionally, built a solar panel detection model using YoloV5 image recognition which was integrated into a Solar Site Prospecting tool."
+            "description": "Led a project that forecasted long-term irradiation trends across solar sites in Japan, achieving a 0.4% annual increase in revenue forecasts. Additionally, built a solar panel detection model using YoloV5 image recognition."
           }
         ]
       },

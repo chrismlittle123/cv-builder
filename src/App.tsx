@@ -33,12 +33,12 @@ function App() {
               <h4 className="text-base font-bold text-blue-900 border-b-2 border-blue-400 pb-2">Skills</h4>
               {cvData.skills.map((skill: any, index: number) => (
                 <div key={index} className="mt-6">
-                  <h4 className="text-xs font-medium text-blue-900 mb-2">{skill.category.value}</h4>
+                  <h4 className="text-xs font-bold text-blue-900 mb-2">{skill.category.value}</h4>
                   <ul className="list-disc list-inside">
                     {skill.items.map((item: any, idx: number) => (
                       <li key={idx} className="text-xs text-blue-900">
                         {item.name} 
-                        <span className="text-blue-700 text-[0.6rem]"> {'★'.repeat(item.proficiency)}</span>
+                        <span className="text-orange-700 text-[0.6rem]"> {'★'.repeat(item.proficiency)}</span>
                       </li>
                     ))}
                   </ul>
@@ -51,7 +51,7 @@ function App() {
               <h4 className="text-base font-bold text-blue-900 border-b-2 border-blue-400 pb-2">Experience</h4>
               {cvData.experience.map((exp: any, index: number) => (
                 <div key={index} className="mt-6">
-                  <h4 className="text-sm font-semibold text-blue-900">{exp.title} at {exp.company}</h4>
+                  <h4 className="text-sm font-semibold text-blue-700 mb-1">{exp.title} at  {exp.company}</h4>
                   <p className="text-xs text-blue-900">{exp.locationCity}, {exp.locationCountry} | {getMonthName(exp.startDate.month)} {exp.startDate.year} - {exp.endDate ? `${getMonthName(exp.endDate.month)} ${exp.endDate.year}` : 'Present'}</p>
                   {exp.description && (
                     <p className="text-xs text-blue-900 mt-2">{exp.description}</p>
@@ -59,7 +59,7 @@ function App() {
                   {exp.achievements && exp.achievements.length > 0 && (
                     <div className="mt-2">
                       {exp.achievements.map((ach: any, idx: number) => (
-                        <p key={idx} className="text-xs text-blue-900 mt-1"><span className="font-bold">{ach.title}</span>: {ach.description}</p>
+                        <p key={idx} className="text-xs mt-1"><span className="font-bold text-blue-900">{ach.title}</span><span className="text-blue-900">: {ach.description}</span></p>
                       ))}
                     </div>
                   )}
