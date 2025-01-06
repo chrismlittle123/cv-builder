@@ -14,7 +14,7 @@ function App() {
         <header className="text-center py-4">
           <h1 className="text-lg font-bold text-blue-900">{cvData.profile.name} - {cvData.profile.title}</h1>
 
-          <p className="text-xs text-blue-700 mt-2">{cvData.profile.contact.email} | {cvData.profile.contact.phone}</p>
+          <p className="text-xs text-gray-500 mt-2">{cvData.profile.contact.email} | {cvData.profile.contact.phone}</p>
         </header>
         <div className="p-8 flex flex-col md:flex-row">
           <div className="md:w-1/3 md:pr-4">
@@ -51,8 +51,8 @@ function App() {
               <h4 className="text-base font-bold text-blue-900 border-b-2 border-blue-400 pb-2">Experience</h4>
               {cvData.experience.map((exp: any, index: number) => (
                 <div key={index} className="mt-6">
-                  <h4 className="text-sm font-semibold text-blue-700 mb-1">{exp.title} at  {exp.company}</h4>
-                  <p className="text-xs text-blue-900">{exp.locationCity}, {exp.locationCountry} | {getMonthName(exp.startDate.month)} {exp.startDate.year} - {exp.endDate ? `${getMonthName(exp.endDate.month)} ${exp.endDate.year}` : 'Present'}</p>
+                  <h4 className="text-sm font-semibold text-blue-900 mb-1">{exp.title} at  {exp.company}</h4>
+                  <p className="text-xs text-gray-500">{exp.locationCity}, {exp.locationCountry} | {getMonthName(exp.startDate.month)} {exp.startDate.year} - {exp.endDate ? `${getMonthName(exp.endDate.month)} ${exp.endDate.year}` : 'Present'}</p>
                   {exp.description && (
                     <p className="text-xs text-blue-900 mt-2">{exp.description}</p>
                   )}
