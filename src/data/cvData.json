@@ -1,240 +1,256 @@
 {
-    "profile": {
-      "name": "Christopher Little",
-      "title": "Data Engineer", 
-      "contact": {
-        "phone": "07957610802",
-        "email": "christopher.little.personal@gmail.com"
+  "profile": {
+    "name": "Christopher Little",
+    "title": "Data Engineer",
+    "contact": {
+      "phone": "07957610802",
+      "email": "christopher.little.personal@gmail.com"
+    }
+  },
+  "education": [
+    {
+      "degree": {
+        "name": {
+          "identifier": "MATHEMATICS",
+          "value": "Mathematics"
+        },
+        "type": {
+          "identifier": "BSC",
+          "value": "BSc"
+        }
+      },
+      "institution": {
+        "identifier": "WARWICK",
+        "value": "University of Warwick"
+      },
+      "grade": {
+        "identifier": "FIRST",
+        "value": "First Class Honours"
+      },
+      "startDate": {
+        "year": 2014,
+        "month": 9,
+        "day": 1
+      },
+      "endDate": {
+        "year": 2018,
+        "month": 6,
+        "day": 1
       }
+    }
+  ],
+  "skills": [
+    {
+      "category": {
+        "identifier": "PROGRAMMING",
+        "value": "Programming Languages"
+      },
+      "items": [
+        {
+          "name": "Python",
+          "proficiency": 5
+        },
+        {
+          "name": "SQL",
+          "proficiency": 5
+        },
+        {
+          "name": "Typescript",
+          "proficiency": 5
+        }
+      ]
     },
-    "education": [
-      {
-        "degree": {
-          "name": {
-            "identifier": "MATHEMATICS",
-            "value": "Mathematics"
-          },
-          "type": {
-            "identifier": "BSC",
-            "value": "BSc"
-          }
-        },
-        "institution": {
-          "identifier": "WARWICK",
-          "value": "University of Warwick"
-        },
-        "grade": {
-          "identifier": "FIRST",
-          "value": "First Class Honours"
-        },
-        "startDate": {"year": 2014, "month": 9, "day": 1},
-        "endDate": {"year": 2018, "month": 6, "day": 1}
-      }
-    ],
-    "skills": [
-      {
-        "category": {
-          "identifier": "PROGRAMMING",
-          "value": "Programming Languages"
-        },
-        "items": [
-          {
-            "name": "Python",
-            "proficiency": 5
-          },
-          {
-            "name": "SQL",
-            "proficiency": 5
-          },
-          {
-            "name": "Typescript",
-            "proficiency": 4
-          }
-        ]
+    {
+      "category": {
+        "identifier": "DATA_PLATFORMS",
+        "value": "Data Platforms"
       },
-      {
-        "category": {
-          "identifier": "DATA_TOOLS",
-          "value": "Data Tools"
+      "items": [
+        {
+          "name": "Databricks",
+          "proficiency": 5
         },
-        "items": [
-          {
-            "name": "Databricks",
-            "proficiency": 5
-          },
-          {
-            "name": "Apache Spark",
-            "proficiency": 5
-          },
-          {
-            "name": "DBT",
-            "proficiency": 4
-          }
-        ]
+        {
+          "name": "Snowflake",
+          "proficiency": 5
+        }
+      ]
+    },
+    {
+      "category": {
+        "identifier": "DEVOPS",
+        "value": "DevOps"
       },
-      {
-        "category": {
-          "identifier": "CLOUD",
-          "value": "Cloud Technologies"
+      "items": [
+        {
+          "name": "Terraform",
+          "proficiency": 5
         },
-        "items": [
-          {
-            "name": "Terraform",
-            "proficiency": 5
-          },
-          { "name": "AWS Redshift", "proficiency": 5 },
-          {
-            "name": "AWS Lambda",
-            "proficiency": 4
-          },
-          { "name": "AWS Glue", "proficiency": 4 },
-          { "name": "AWS S3", "proficiency": 4 }
-        ]
+        {
+          "name": "Docker",
+          "proficiency": 5
+        },
+        {
+          "name": "GitHub Actions",
+          "proficiency": 5
+        }
+      ]
+    },
+    {
+      "category": {
+        "identifier": "DATA_PIPELINE_TOOLS",
+        "value": "Data Pipeline Tools"
       },
-      {
-        "category": {
-          "identifier": "CONTAINERS",
-          "value": "Containersation"
+      "items": [
+        {
+          "name": "Apache Spark",
+          "proficiency": 5
         },
-        "items": [
-          {
-            "name": "Docker",
-            "proficiency": 5
-          }
-        ]
+        {
+          "name": "DBT",
+          "proficiency": 5
+        },
+        {
+          "name": "Airflow",
+          "proficiency": 4
+        }
+      ]
+    },
+    {
+      "category": {
+        "identifier": "DATA_VISUALISATION",
+        "value": "Data Visualisation"
       },
-      {
-        "category": {
-          "identifier": "DATABASES",
-          "value": "Database Systems"
+      "items": [
+        {
+          "name": "Power BI",
+          "proficiency": 4
         },
-        "items": [
-          {
-            "name": "PostgreSQL",
-            "proficiency": 5
-          },
-          {
-            "name": "MySQL",
-            "proficiency": 5
-          },
-          {
-            "name": "Snowflake",
-            "proficiency": 4
-          }
-        ]
+        {
+          "name": "Tableau",
+          "proficiency": 4
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "startDate": {
+        "year": 2024,
+        "month": 1,
+        "day": 1
       },
-      {
-        "category": {
-          "identifier": "VISUALISATION",
-          "value": "Data Visualisation"
-        },
-        "items": [
-          {
-            "name": "Streamlit",
-            "proficiency": 5
-          },
-          {
-            "name": "Power BI",
-            "proficiency": 5
-          },
-          {
-            "name": "Looker",
-            "proficiency": 4
-          },
-          {
-            "name": "Tableau",
-            "proficiency": 4
-          }
-        ]
+      "endDate": {
+        "year": 2025,
+        "month": 1,
+        "day": 1
       },
-      {
-        "category": {
-          "identifier": "DEVOPS",
-          "value": "DevOps"
-        },
-        "items": [
-          {
-            "name": "GitHub Actions",
-            "proficiency": 4
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "startDate": {"year": 2024, "month": 1, "day": 1},
-        "endDate": {"year": 2025, "month": 1, "day": 1},
-        "company": "SpeedSheet",
-        "locationCity": "Oxford",
-        "locationCountry": "UK",
-        "title": "Data Consultant",
-        "description": "Started my own consultancy business, providing software development and data consulting services to clients.",
-        "achievements": [{
-          "title": "Compliance Tool for Mortgage Broker",
-          "description": "Built a tool which lets mortgage brokers extract data from PDFs such as bank statements and payslips and provides a Power BI analytics dashboard to track metrics. AWS Infrastructure written in Terraform, data pipeline built using SQL and Databricks. Saved 30 FTE hours per month for one client."
+      "company": "CAVU",
+      "locationCity": "Manchester",
+      "locationCountry": "UK",
+      "title": "Senior Data Consultant",
+      "achievements": [
+        {
+          "title": "Large-scale Data Warehouse Migration",
+          "description": "Led a large-scale AWS Redshift to Databricks data warehouse migration project for Manchester Airport. Reduced data processing and storage costs by 50%." 
+        }
+      ]
+    },
+    {
+      "startDate": {
+        "year": 2024,
+        "month": 1,
+        "day": 1
+      },
+      "endDate": {
+        "year": 2025,
+        "month": 1,
+        "day": 1
+      },
+      "company": "SpeedSheet",
+      "locationCity": "Oxford",
+      "locationCountry": "UK",
+      "title": "Senior Data Consultant",
+      "achievements": [
+        {
+          "title": "CRM and Document Management System for Mortgage Broker",
+          "description": "Built a complete CRM and document management system for a mortgage broker, allowing them to manage their clients, communications, and documents in one tool. Saved 30 FTE hours per month."
         },
         {
           "title": "EBay Store Management System",
-          "description": "Built a custom ERP system for an e-commerce business, allowing them to manage their inventory, orders, and sales and connect to eBay. AWS Infrastructure written in Terraform. Saved 20 FTE hours per month and increased sale conversion rate by approximately 10%."
+          "description": "Built a custom ERP system for an e-commerce business, allowing them to manage their inventory, orders, and sales and connect to eBay. Saved 20 FTE hours per month and increased order processing rate by approximately 15%."
         }
       ]
+    },
+    {
+      "startDate": {
+        "year": 2023,
+        "month": 9,
+        "day": 1
       },
-      {
-        "startDate": {"year": 2023, "month": 9, "day": 1},
-        "endDate": {"year": 2024, "month": 2, "day": 1},
-        "company": "ICS Consulting",
-        "locationCity": "Warwick",
-        "locationCountry": "UK",
-        "title": "Senior Data Consultant",
-        "description": null,
-        "achievements": [
-          {
-            "title": "Excel Migration",
-            "description": "Migrated a large and complex Excel process that used VBA to generate reports. I migrated this process to use a MySQL database and a pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month. Designed a suite of tests to ensure a smooth transition."
-          }
-        ]
+      "endDate": {
+        "year": 2024,
+        "month": 2,
+        "day": 1
       },
-      {
-        "startDate": {"year": 2022, "month": 9, "day": 1},
-        "endDate": {"year": 2023, "month": 9, "day": 1},
-        "company": "Sonnedix",
-        "locationCity": "London",
-        "locationCountry": "UK",
-        "title": "Data Engineer",
-        "description": null,
-        "achievements": [
-          {
-            "title": "Financial Analysis Web Application",
-            "description": "Developed a large-scale application using Typescript and React. This application integrated weather data, energy prices, and site-specific data to calculate expected solar site revenues."
-          },
-          {
-            "title": "Data Pipelining",
-            "description": "Utilised SQL and Databricks to build and maintain data pipelines for collecting and processing time series power data."
-          },
-          {
-            "title": "Machine Learning",
-            "description": "Led a project that forecasted long-term irradiation trends across solar sites in Japan, achieving a 0.4% annual increase in revenue forecasts."
-          }
-        ]
+      "company": "ICS Consulting",
+      "locationCity": "Warwick",
+      "locationCountry": "UK",
+      "title": "Senior Data Consultant",
+      "achievements": [
+        {
+          "title": "Excel Migration",
+          "description": "Migrated a large and complex Excel process to use a Postgresql database and a data pipeline powered by Apache Airflow, Python and SQL. The project saved approximately 100 FTE hours per month."
+        }
+      ]
+    },
+    {
+      "startDate": {
+        "year": 2022,
+        "month": 9,
+        "day": 1
       },
-      {
-        "startDate": {"year": 2019, "month": 6, "day": 1},
-        "endDate": {"year": 2022, "month": 9, "day": 1},
-        "company": "Cazoo",
-        "locationCity": "London",
-        "locationCountry": "UK",
-        "title": "Data Engineer",
-        "description": null,
-        "achievements": [
-          {
-            "title": "Backend Development",
-            "description": "Transitioned from Google Sheets to a more efficient backend system for Cazoo's car purchasing process, achieving significant speed improvements, using AWS Lambda, DynamoDB, Docker, and AppSync."
-          },
-          {
-            "title": "Data Modeling",
-            "description": "Modeled data into Redshift using SQL and DBT."
-          }
-        ]
-      }
-    ]
-  }
+      "endDate": {
+        "year": 2023,
+        "month": 9,
+        "day": 1
+      },
+      "company": "Sonnedix",
+      "locationCity": "London",
+      "locationCountry": "UK",
+      "title": "Data Engineer",
+      "achievements": [
+        {
+          "title": "Financial Analysis Web Application",
+          "description": "Developed a large-scale application using Typescript and React. This application integrated weather data, energy prices, and site-specific data to calculate expected solar site revenues."
+        },
+        {
+          "title": "Machine Learning",
+          "description": "Led a project that forecasted long-term irradiation trends across solar sites in Japan, achieving a 0.4% annual increase in revenue forecasts."
+        }
+      ]
+    },
+    {
+      "startDate": {
+        "year": 2019,
+        "month": 6,
+        "day": 1
+      },
+      "endDate": {
+        "year": 2022,
+        "month": 9,
+        "day": 1
+      },
+      "company": "Cazoo",
+      "locationCity": "London",
+      "locationCountry": "UK",
+      "title": "Data Engineer",
+      "achievements": [
+        {
+          "title": "Backend Development",
+          "description": "Built an automated end to end car purchasing system, achieving significant speed improvements, using AWS Lambda, DynamoDB, Docker, and FastAPI."
+        }
+      ]
+    }
+  ]
+}
